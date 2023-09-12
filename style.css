@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    position: 0;
+    background-color: black;
+}
+
+.header {
+    background: linear-gradient(to right top,rgb(222, 143, 238),rgb(110, 16, 233));
+    width: auto;
+    height: auto;
+
+    margin-top: -10px;
+    
+    
+    
+}
+.logo {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    transform: translateY(5px);
+    
+}
+
+.container-but-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.search-but {
+    font-size: 25px;
+    color: yellow;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    transform: translateX(10px);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.login-but:hover {
+    border-color: white;
+}
+
+.login-but {
+    font-size: 25px;
+    color: yellow;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    transform: translateX(-10px);
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.login-but:hover {
+    border-color: white;
+}
+
+
+
+.pic {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60px;
+
+    
+    
+
+}
+
+.container-profile-pic {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    margin: 40px;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 25px;
+    
+}
+
+.crate-by {
+    color: white;
+    margin-top: 30px;
+    transform: translateX(10px);
+}
+
+
+
+.make-your-world-good {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(32, 32, 32);
+    font-size: 31px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    transform: translateY(5px);
+   
+    
+}
+
+.Verified-icon {
+    width: 17px;
+    height: 17px;
+    transform: translateY(31.5px);
+    margin-left: 15px;
+}
+
+.container-Verified-icon {
+    display: flex;
+}
+
+.textm { 
+    text-align: center;
+    color: rgb(204, 204, 204);
+    background-color: rgb(32, 32, 32);
+    font-size: 24px;
+    margin: 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+
+}
+
+.started-but {
+    font-size: 25px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-7px);
+    cursor: pointer;
+    background-color: black;
+    color: rgb(238, 255, 0);
+    
+}
